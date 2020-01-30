@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  black;
+    margin: 0px 0px 10px 0px;
+    padding: 20px;
+    color: rgb(253, 249, 249);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header .logo a {
+   background-image: url("images/neoncircleshine.jpg");
+   background-size: 300px;
+   background-repeat: no-repeat;
+   display: inline-block;
+   height: 200px;
+   width: 300px;
+   position: relative;
+   top: -10px; 
+}
+ .pic1:hover {
+     width: 200px;
+      height: 400px;
+     }
+
+
+  .pic2:hover {
+     width: 200px;
+      height: 400px;
+      }
+
+  .pic3:hover {
+     width: 200px;
+      height: 400px;
+     }
+
+.box {
+    background-color: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box figure {
+    background-color:white;
+     width: 300px;
+     margin: auto;
+     text-align: center;
+
+    
+}
+
+.box figure img {
+   width: 250px;
+   border-radius: 10px;
+   box-shadow: rgb(110, 107, 107) 10px 0px 10px
+
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+li:first-child {
+    margin-left: 0;
+}
+
+li:hover {
+    background-color: rgb(11, 44, 175);
+}
+
+a {
+    text-decoration:none
+}
+
+/*a:hover {
+    text-decoration-line: overline;
+    text-decoration-color: rgb(180, 43, 112);
+    text-decoration-style: dotted;
+    text-decoration-thickness: 4px;
+}
+*/
+
+section.box {
+    display: flex;
+    align-items: center;
+}
+
+
+section.box div{
+   background-color: rgb(17, 17, 17); 
+   width: 100%;
+   margin: 1px;
+}
+
+ section.box2 div{
+    background-color: rgb(17, 17, 17); 
+    width: 100%;
+    margin: 1px;
+ }
+ 
+ footer {
+    background-color: black;
+    padding: 10px 20px;
+    color: black;
+}
+
