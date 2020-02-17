@@ -58,8 +58,13 @@ try {
 //Hover 3rd Image
 const picture3 = document.getElementById('pic3')
 picture3.addEventListener('mouseover', function () {
-    // this.style.width = 200;
+    this.style.width = 200;
 });
 picture3.addEventListener('mouseout', function () {
-    // this.style.width = 250;
+    this.style.width = 250;
 });
+
+function switchMode() {
+    let element = document.getElementById('header')
+    element.classList.toggle('darkMode')
+}
