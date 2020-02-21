@@ -231,3 +231,34 @@ font-size: 45px;
     color: grey;
 
 }
+
+.image-container {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/29/19/34/northern-lights-3273425_960_720.jpg");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+    text-shadow: 0 0 7px rgb(129, 123, 179);
+   
+}
+
+.sideText{
+  border-radius: 6px;
+  padding-left: 20px;
+  font-size: 18px;
+}
